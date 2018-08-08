@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/query"
+        android:layout_margin="@dimen/size8dp"
+        android:textSize="@dimen/size16sp"
+        android:padding="@dimen/size8dp"
+        android:textColor="@color/colorWhite"
+        android:inputType="text"
+        android:hint="@string/search_hint"
+        android:background="@color/colorBlack"
+        android:imeOptions="actionSearch"
+        android:focusable="true"
+        android:textColorHint="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
