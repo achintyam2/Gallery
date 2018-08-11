@@ -37,9 +37,7 @@ public class SearchFragment extends Fragment implements Contract.SearchView{
     public SearchFragment() {}
 
     public static SearchFragment getInstance(){
-        if (searchFragment == null)
-            searchFragment = new SearchFragment();
-        return searchFragment;
+        return new SearchFragment();
     }
 
     @Override

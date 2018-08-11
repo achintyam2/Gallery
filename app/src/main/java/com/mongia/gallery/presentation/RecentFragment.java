@@ -32,9 +32,7 @@ public class RecentFragment extends Fragment implements Contract.RecentView{
     public RecentFragment() {}
 
     public static RecentFragment getInstance(){
-        if (recentFragment == null)
-            recentFragment = new RecentFragment();
-        return recentFragment;
+        return new RecentFragment();
     }
 
     @Override
